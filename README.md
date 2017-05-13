@@ -1,8 +1,12 @@
-# Development-Lab Catalog 
+## Development-Lab Catalog 
 
 This catalog provides templates created for internal use, and they are not maintained or supported by Development-Labs.
 
-# License
+### Changelog 
+
++ v.1.0 - Initial version (based on community catalog)
+
+### License
 Copyright (c) 2016-2017 [Development Lab, Company](http://development-lab.site)
 
 Licensed under the Apache License, Version 2.0 (the "License");
