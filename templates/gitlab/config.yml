@@ -1,5 +1,4 @@
-name: Gitlab Community
-description: |
-  Gitlab CE is a free GitHub alternative
+name: GitLab
+description: 'On Premise Git'
+category: Forge
 version: latest
-category: Versioning
