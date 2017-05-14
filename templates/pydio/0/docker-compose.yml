@@ -6,8 +6,8 @@ pydio:
   links:
     - pydiodb
   volumes:
-    - "${linkdata}:/data»
-    - "${linkconfig}:/config»
+    - "${linkdata}:/data"
+    - "${linkconfig}:/config"
 pydiodb:
   image: mariadb:10.0.27
   environment:
