@@ -1,6 +1,6 @@
 .catalog:
   name: "NextCloud"
-  version: "v0.1-educaas1"
+  version: "v0.2"
   description: "Nextcloud is a self-hosted open source application for file hosting and sharing."
   uuid: divo-NextCloud-0
   minimum_rancher_version: v0.51.0
@@ -10,4 +10,10 @@
       label: "Hostname:"
       required: true
       default: "nc.divo.net.pl"
+      type: "string"
+    - variable: "postgresql_hostname"
+      description: "Database hostname"
+      label: "Hostname:"
+      required: true
+      default: "postgres.local"
       type: "string"
