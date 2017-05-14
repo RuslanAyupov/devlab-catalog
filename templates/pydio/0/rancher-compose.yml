@@ -4,19 +4,16 @@
   description: "Pydio for Secure File Sharing for business"
   minimum_rancher_version: v0.46.0
   questions:
-    - variable: "linkfile"
+    - variable: "linkconfig»
       type: string
       required: true
       label: "Link Config»
       description: "volumes for config»
-    - variable: "linkconfig»
+    - variable: "linkdata»
       type: string
       required: true
       label: "Link Data»
       description: "volumes for data»
-     - variable: "linkdata»
-      type: string
-      required: true
     - variable: "rootpass"
       type: string
       required: true
