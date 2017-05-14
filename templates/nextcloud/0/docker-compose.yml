@@ -9,7 +9,7 @@ services:
     - DEBUG=false
     - TZ=Europe/Moscow
     - DB_TYPE=pgsql
-    - DB_HOST=$(posgresql_hostname)
+    - DB_HOST="${posgresql_hostname}"
     - DB_USER=dba
     - DB_PASS=steelpad
     - DB_NAME=nextcloud
