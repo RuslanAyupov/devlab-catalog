@@ -5,6 +5,7 @@ This catalog provides templates created for internal use, and they are not maint
 ### Changelog 
 
 + v.1.0 - Initial version (based on community catalog)
++ v.1.1 - Added new services
 
 ### License
 Copyright (c) 2016-2017 [Development Lab, Company](http://development-lab.site)
