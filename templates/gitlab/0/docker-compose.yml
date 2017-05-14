@@ -32,8 +32,6 @@ gitlab:
   volumes:
   - ${GITLAB_DIR}/config:/etc/gitlab
   - ${GITLAB_DIR}/data:/var/opt/gitlab
-  log_opt:
-    max-size: '50m'
   restart: 'no'
   cpu_shares: 512
   mem_limit: 2147483648
