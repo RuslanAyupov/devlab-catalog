@@ -1,13 +1,13 @@
 pydio:
-  image: cl3m3nt/pydio-docker:v0.1
+  image: linuxserver/pydio:latest
   ports:
     - 443:443
     - 80:80
   links:
     - pydiodb
   volumes:
-    - "${linkfile}:/var/www/pydio-core/data/files/"
-    - "${linkpersonal}:/var/www/pydio-core/data/personal/"
+    - "${linkdata}:/data»
+    - "${linkconfig}:/config»
 pydiodb:
   image: mariadb:10.0.27
   environment:

@@ -7,13 +7,16 @@
     - variable: "linkfile"
       type: string
       required: true
-      label: "Link volume"
-      description: "volumes for /var/www/pydio-core/data/files/"
-    - variable: "linkpersonal"
+      label: "Link Config»
+      description: "volumes for config»
+    - variable: "linkconfig»
       type: string
       required: true
-      label: "Link volume"
-      description: "volumes for /var/www/pydio-core/data/personal/"
+      label: "Link Data»
+      description: "volumes for data»
+     - variable: "linkdata»
+      type: string
+      required: true
     - variable: "rootpass"
       type: string
       required: true
