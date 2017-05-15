@@ -21,7 +21,7 @@ mattermost:
     io.rancher.sidekicks: mattermost-datavolume
     io.rancher.container.pull_image: always
   tty: true
-  image: mattermost/mattermost-prod-app:3.7.3
+  image: mattermost/mattermost-prod-app:latest
   volumes:
   - /etc/localtime:/etc/localtime:ro
   volumes_from:
