@@ -1,16 +1,9 @@
 version: "2"
 
 services:
-  postgres:
-    image: postgres:9.6-alpine
-    environment:
-      - "POSTGRES_USER=${POSTGRES_USER}"
-      - "POSTGRES_PASSWORD=${POSTGRES_PASSWORD}"
-    volumes:
-      - postgres-volume:/var/lib/postgresql/data
-    volume_driver: ${VOLUME_DRIVER}
-  
   cachet:
+    external_links:
+  -   ${postgres_link}:postgres
     image: cachethq/docker:latest
     environment:
       - "DB_DRIVER=pgsql"
